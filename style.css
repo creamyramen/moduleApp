@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.buttons {
+  top: 0;
+  background: white;
+  width: 100vw;
+  height: 30vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+}
+.buttons button {
+  background: #111d5e;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.5em;
+  border-radius: 3px;
+  font-size: 2em;
+  cursor: pointer;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background: #fe346e;
+  border: 2px solid #111d5e;
+  margin: 1.5px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background: #b21f66;
+  border-radius: 100%;
+  border: 2px solid #111d5e;
+  margin: 1.5px;
+}
+
+.squares {
+  margin-top: 30vh;
+}
+
+.circles,
+.squares {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  padding: 10px;
+}
+
+.dark {
+  background-color: #111d5e;
+}
+
+/*# sourceMappingURL=style.css.map */
